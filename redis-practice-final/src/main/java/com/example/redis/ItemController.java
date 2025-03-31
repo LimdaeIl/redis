@@ -24,7 +24,11 @@ public class ItemController {
         return itemService.create(itemDto);
     }
 
+
+
+    
     @GetMapping
+
     public List<ItemDto> readAll() {
         return itemService.readAll();
     }
